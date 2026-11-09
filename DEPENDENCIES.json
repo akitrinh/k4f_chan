@@ -1,0 +1,346 @@
+{
+  "python": "3.14.8",
+  "architecture": "Windows x64",
+  "dependencies": [
+    {
+      "name": "altgraph",
+      "version": "0.17.5",
+      "license_expression": null,
+      "homepage": "https://altgraph.readthedocs.io",
+      "license_files": [
+        "LICENSES/altgraph/LICENSE"
+      ]
+    },
+    {
+      "name": "anyio",
+      "version": "4.16.0",
+      "license_expression": "MIT",
+      "homepage": null,
+      "license_files": [
+        "LICENSES/anyio/LICENSE"
+      ]
+    },
+    {
+      "name": "certifi",
+      "version": "2026.10.23",
+      "license_expression": null,
+      "homepage": "https://github.com/certifi/python-certifi",
+      "license_files": [
+        "LICENSES/certifi/LICENSE"
+      ]
+    },
+    {
+      "name": "ctranslate2",
+      "version": "4.8.4",
+      "license_expression": null,
+      "homepage": "https://opennmt.net",
+      "license_files": [
+        "LICENSES/ctranslate2/LICENSE"
+      ]
+    },
+    {
+      "name": "h11",
+      "version": "0.16.0",
+      "license_expression": null,
+      "homepage": "https://github.com/python-hyper/h11",
+      "license_files": [
+        "LICENSES/h11/LICENSE.txt"
+      ]
+    },
+    {
+      "name": "httpcore",
+      "version": "1.0.9",
+      "license_expression": "BSD-3-Clause",
+      "homepage": null,
+      "license_files": [
+        "LICENSES/httpcore/LICENSE.md"
+      ]
+    },
+    {
+      "name": "httpx",
+      "version": "0.28.1",
+      "license_expression": null,
+      "homepage": null,
+      "license_files": [
+        "LICENSES/httpx/LICENSE.md"
+      ]
+    },
+    {
+      "name": "idna",
+      "version": "3.20",
+      "license_expression": "BSD-3-Clause",
+      "homepage": null,
+      "license_files": [
+        "LICENSES/idna/LICENSE.md"
+      ]
+    },
+    {
+      "name": "numpy",
+      "version": "2.5.4",
+      "license_expression": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+      "homepage": null,
+      "license_files": [
+        "LICENSES/numpy/LICENSE.txt",
+        "LICENSES/numpy/numpy-libdivide-LICENSE.txt",
+        "LICENSES/numpy/COPYING",
+        "LICENSES/numpy/LICENSE",
+        "LICENSES/numpy/dragon4_LICENSE.txt",
+        "LICENSES/numpy/LICENSE.md",
+        "LICENSES/numpy/umath-svml-LICENSE",
+        "LICENSES/numpy/fft-pocketfft-LICENSE.md",
+        "LICENSES/numpy/linalg-lapack_lite-LICENSE.txt",
+        "LICENSES/numpy/numpy-ma-LICENSE",
+        "LICENSES/numpy/numpy-random-LICENSE.md",
+        "LICENSES/numpy/src-distributions-LICENSE.md",
+        "LICENSES/numpy/src-mt19937-LICENSE.md",
+        "LICENSES/numpy/src-pcg64-LICENSE.md",
+        "LICENSES/numpy/src-philox-LICENSE.md",
+        "LICENSES/numpy/src-sfc64-LICENSE.md",
+        "LICENSES/numpy/src-splitmix64-LICENSE.md",
+        "LICENSES/numpy/numpy-random-LICENSE.txt",
+        "LICENSES/numpy/numpy-ma-LICENSE",
+        "LICENSES/numpy/numpy-random-LICENSE.md"
+      ]
+    },
+    {
+      "name": "packaging",
+      "version": "26.3",
+      "license_expression": "Apache-2.0 OR BSD-2-Clause",
+      "homepage": null,
+      "license_files": [
+        "LICENSES/packaging/LICENSE",
+        "LICENSES/packaging/LICENSE.APACHE",
+        "LICENSES/packaging/LICENSE.BSD"
+      ]
+    },
+    {
+      "name": "pefile",
+      "version": "2024.8.26",
+      "license_expression": null,
+      "homepage": "https://github.com/erocarrera/pefile",
+      "license_files": [
+        "LICENSES/pefile/LICENSE"
+      ]
+    },
+    {
+      "name": "pillow",
+      "version": "12.3.0",
+      "license_expression": "MIT-CMU",
+      "homepage": null,
+      "license_files": [
+        "LICENSES/pillow/LICENSE"
+      ]
+    },
+    {
+      "name": "pip",
+      "version": "26.2.1",
+      "license_expression": "MIT",
+      "homepage": null,
+      "license_files": [
+        "LICENSES/pip/AUTHORS.txt",
+        "LICENSES/pip/LICENSE.txt",
+        "LICENSES/pip/_vendor-cachecontrol-LICENSE.txt",
+        "LICENSES/pip/LICENSE",
+        "LICENSES/pip/_vendor-distlib-LICENSE.txt",
+        "LICENSES/pip/_vendor-distro-LICENSE",
+        "LICENSES/pip/LICENSE.md",
+        "LICENSES/pip/COPYING",
+        "LICENSES/pip/_vendor-packaging-LICENSE",
+        "LICENSES/pip/LICENSE.APACHE",
+        "LICENSES/pip/LICENSE.BSD",
+        "LICENSES/pip/_vendor-pkg_resources-LICENSE",
+        "LICENSES/pip/_vendor-platformdirs-LICENSE",
+        "LICENSES/pip/_vendor-pygments-LICENSE",
+        "LICENSES/pip/_vendor-pyproject_hooks-LICENSE",
+        "LICENSES/pip/_vendor-requests-LICENSE",
+        "LICENSES/pip/_vendor-resolvelib-LICENSE",
+        "LICENSES/pip/_vendor-rich-LICENSE",
+        "LICENSES/pip/_vendor-tomli-LICENSE",
+        "LICENSES/pip/_vendor-tomli_w-LICENSE",
+        "LICENSES/pip/_vendor-truststore-LICENSE",
+        "LICENSES/pip/_vendor-urllib3-LICENSE.txt",
+        "LICENSES/pip/_vendor-cachecontrol-LICENSE.txt",
+        "LICENSES/pip/LICENSE",
+        "LICENSES/pip/_vendor-distlib-LICENSE.txt",
+        "LICENSES/pip/_vendor-distro-LICENSE",
+        "LICENSES/pip/LICENSE.md",
+        "LICENSES/pip/COPYING",
+        "LICENSES/pip/_vendor-packaging-LICENSE",
+        "LICENSES/pip/LICENSE.APACHE",
+        "LICENSES/pip/LICENSE.BSD",
+        "LICENSES/pip/_vendor-pkg_resources-LICENSE",
+        "LICENSES/pip/_vendor-platformdirs-LICENSE",
+        "LICENSES/pip/_vendor-pygments-LICENSE",
+        "LICENSES/pip/_vendor-pyproject_hooks-LICENSE",
+        "LICENSES/pip/_vendor-requests-LICENSE",
+        "LICENSES/pip/_vendor-resolvelib-LICENSE",
+        "LICENSES/pip/_vendor-rich-LICENSE",
+        "LICENSES/pip/_vendor-tomli-LICENSE",
+        "LICENSES/pip/_vendor-tomli_w-LICENSE",
+        "LICENSES/pip/_vendor-truststore-LICENSE",
+        "LICENSES/pip/_vendor-urllib3-LICENSE.txt"
+      ]
+    },
+    {
+      "name": "pyinstaller",
+      "version": "6.22.3",
+      "license_expression": null,
+      "homepage": null,
+      "license_files": [
+        "LICENSES/pyinstaller/COPYING.txt"
+      ]
+    },
+    {
+      "name": "pyinstaller-hooks-contrib",
+      "version": "2026.9",
+      "license_expression": null,
+      "homepage": "https://github.com/pyinstaller/pyinstaller-hooks-contrib",
+      "license_files": [
+        "LICENSES/pyinstaller-hooks-contrib/LICENSE"
+      ]
+    },
+    {
+      "name": "PySide6_Essentials",
+      "version": "6.12.0",
+      "license_expression": null,
+      "homepage": null,
+      "license_files": [
+        "LICENSES/pyside6-essentials/LicenseRef-Qt-Commercial.txt"
+      ]
+    },
+    {
+      "name": "pywin32-ctypes",
+      "version": "0.2.3",
+      "license_expression": null,
+      "homepage": "https://github.com/enthought/pywin32-ctypes",
+      "license_files": [
+        "LICENSES/pywin32-ctypes/LICENSE.txt"
+      ]
+    },
+    {
+      "name": "PyYAML",
+      "version": "6.0.3",
+      "license_expression": null,
+      "homepage": "https://pyyaml.org/",
+      "license_files": [
+        "LICENSES/pyyaml/LICENSE"
+      ]
+    },
+    {
+      "name": "sentencepiece",
+      "version": "0.2.2",
+      "license_expression": "Apache-2.0",
+      "homepage": null,
+      "license_files": [
+        "LICENSES/sentencepiece/LICENSE"
+      ]
+    },
+    {
+      "name": "setuptools",
+      "version": "84.2.1",
+      "license_expression": "MIT",
+      "homepage": null,
+      "license_files": [
+        "LICENSES/setuptools/LICENSE",
+        "LICENSES/setuptools/_vendor-autocommand-2.2.2.dist-info-LICENSE",
+        "LICENSES/setuptools/LICENSE",
+        "LICENSES/setuptools/importlib_metadata-8.7.1.dist-info-licenses-LICENSE",
+        "LICENSES/setuptools/LICENSE",
+        "LICENSES/setuptools/jaraco_context-6.1.0.dist-info-licenses-LICENSE",
+        "LICENSES/setuptools/jaraco_functools-4.4.0.dist-info-licenses-LICENSE",
+        "LICENSES/setuptools/more_itertools-10.8.0.dist-info-licenses-LICENSE",
+        "LICENSES/setuptools/packaging-26.3.dist-info-licenses-LICENSE",
+        "LICENSES/setuptools/LICENSE.APACHE",
+        "LICENSES/setuptools/LICENSE.BSD",
+        "LICENSES/setuptools/platformdirs-4.4.0.dist-info-licenses-LICENSE",
+        "LICENSES/setuptools/tomli-2.4.0.dist-info-licenses-LICENSE",
+        "LICENSES/setuptools/LICENSE.txt",
+        "LICENSES/setuptools/zipp-3.23.0.dist-info-licenses-LICENSE",
+        "LICENSES/setuptools/NOTICE",
+        "LICENSES/setuptools/config-_validate_pyproject-NOTICE"
+      ]
+    },
+    {
+      "name": "shiboken6",
+      "version": "6.12.0",
+      "license_expression": null,
+      "homepage": null,
+      "license_files": [
+        "LICENSES/shiboken6/LicenseRef-Qt-Commercial.txt"
+      ]
+    },
+    {
+      "name": "typing_extensions",
+      "version": "4.16.0",
+      "license_expression": "PSF-2.0",
+      "homepage": null,
+      "license_files": [
+        "LICENSES/typing-extensions/LICENSE"
+      ]
+    },
+    {
+      "name": "winrt-runtime",
+      "version": "3.2.1",
+      "license_expression": "MIT",
+      "homepage": null,
+      "license_files": [
+        "LICENSES/pywinrt/LICENSE"
+      ]
+    },
+    {
+      "name": "winrt-Windows.Foundation",
+      "version": "3.2.1",
+      "license_expression": "MIT",
+      "homepage": null,
+      "license_files": [
+        "LICENSES/pywinrt/LICENSE"
+      ]
+    },
+    {
+      "name": "winrt-Windows.Foundation.Collections",
+      "version": "3.2.1",
+      "license_expression": "MIT",
+      "homepage": null,
+      "license_files": [
+        "LICENSES/pywinrt/LICENSE"
+      ]
+    },
+    {
+      "name": "winrt-Windows.Globalization",
+      "version": "3.2.1",
+      "license_expression": "MIT",
+      "homepage": null,
+      "license_files": [
+        "LICENSES/pywinrt/LICENSE"
+      ]
+    },
+    {
+      "name": "winrt-Windows.Graphics.Imaging",
+      "version": "3.2.1",
+      "license_expression": "MIT",
+      "homepage": null,
+      "license_files": [
+        "LICENSES/pywinrt/LICENSE"
+      ]
+    },
+    {
+      "name": "winrt-Windows.Media.Ocr",
+      "version": "3.2.1",
+      "license_expression": "MIT",
+      "homepage": null,
+      "license_files": [
+        "LICENSES/pywinrt/LICENSE"
+      ]
+    },
+    {
+      "name": "winrt-Windows.Storage.Streams",
+      "version": "3.2.1",
+      "license_expression": "MIT",
+      "homepage": null,
+      "license_files": [
+        "LICENSES/pywinrt/LICENSE"
+      ]
+    }
+  ],
+  "scope": "Exact installed build environment, including build tools; not every listed package is imported by the application."
+}

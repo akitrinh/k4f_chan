@@ -1,0 +1,101 @@
+{
+  "repository": "dekthedev/opus-mt-en-vi-ct2-int8",
+  "revision": "c22547827b876e8ee939d6a9363965e5c9f769e1",
+  "repository_api_url": "https://huggingface.co/api/models/dekthedev/opus-mt-en-vi-ct2-int8/revision/c22547827b876e8ee939d6a9363965e5c9f769e1",
+  "tree_api_url": "https://huggingface.co/api/models/dekthedev/opus-mt-en-vi-ct2-int8/tree/c22547827b876e8ee939d6a9363965e5c9f769e1",
+  "model_card_url": "https://huggingface.co/dekthedev/opus-mt-en-vi-ct2-int8/raw/c22547827b876e8ee939d6a9363965e5c9f769e1/README.md",
+  "upstream_repository": "Helsinki-NLP/opus-mt-en-vi",
+  "upstream_revision": "989c9fb9ec63987901022baf0182dcec3e149be6",
+  "upstream_model_card_url": "https://huggingface.co/Helsinki-NLP/opus-mt-en-vi/raw/989c9fb9ec63987901022baf0182dcec3e149be6/README.md",
+  "license": "apache-2.0",
+  "license_evidence": "Both conversion and upstream model cards declare license: apache-2.0.",
+  "downloaded_at_utc": "2026-10-29T04:49:37.289118+00:00",
+  "format": "CTranslate2 int8 (publisher declaration; runtime not exercised during preparation)",
+  "direction": "eng -> vie (modern Vietnamese, not vie_Hani)",
+  "tokenization": {
+    "source": "source.spm, SentencePiece encode(out_type=str)",
+    "source_prefix": ">>vie<<",
+    "source_prefix_vocabulary_index": 3,
+    "target_language_tokens": [
+      ">>vie<<"
+    ],
+    "source_suffix": "</s>",
+    "ct2_add_source_eos": false,
+    "decoder_start_token": "</s>",
+    "target": "target.spm, SentencePiece decode of output pieces; omit BOS/EOS/PAD",
+    "tokenizer_source_lang": "eng",
+    "tokenizer_target_lang": "vie",
+    "normalization": "SentencePiece's embedded normalization only; no external Moses normalization",
+    "note": "The upstream card requires an initial source-side target-language tag. The conversion card's usage omits it; adapter follows upstream and verified vocabulary."
+  },
+  "dependencies": {
+    "ctranslate2": "4.8.4",
+    "sentencepiece": "0.2.2"
+  },
+  "files": [
+    {
+      "name": "config.json",
+      "url": "https://huggingface.co/dekthedev/opus-mt-en-vi-ct2-int8/resolve/c22547827b876e8ee939d6a9363965e5c9f769e1/config.json",
+      "size_bytes": 189,
+      "sha256": "4244772990e30069563e3ddfb4ad6dc95bdfd2ac3de667ea8858c9b0a8433fa8",
+      "repository_hash_kind": "git-blob-sha1",
+      "repository_hash": "caabe03149031fc83c5c898c774f9a851ba91f1f"
+    },
+    {
+      "name": "model.bin",
+      "url": "https://huggingface.co/dekthedev/opus-mt-en-vi-ct2-int8/resolve/c22547827b876e8ee939d6a9363965e5c9f769e1/model.bin",
+      "size_bytes": 73683276,
+      "sha256": "53a1d87fbcdfe1b95e51a8da90b673208895fc986507b68dcd4a8031ca54676c",
+      "repository_hash_kind": "sha256",
+      "repository_hash": "53a1d87fbcdfe1b95e51a8da90b673208895fc986507b68dcd4a8031ca54676c"
+    },
+    {
+      "name": "shared_vocabulary.json",
+      "url": "https://huggingface.co/dekthedev/opus-mt-en-vi-ct2-int8/resolve/c22547827b876e8ee939d6a9363965e5c9f769e1/shared_vocabulary.json",
+      "size_bytes": 935068,
+      "sha256": "5f2a279e57b170f567fb605bd44fb40f8ed22f73a06648eefa9b877831e95a3e",
+      "repository_hash_kind": "git-blob-sha1",
+      "repository_hash": "35cae047397439c031d4c247990cac26251b2a77"
+    },
+    {
+      "name": "source.spm",
+      "url": "https://huggingface.co/dekthedev/opus-mt-en-vi-ct2-int8/resolve/c22547827b876e8ee939d6a9363965e5c9f769e1/source.spm",
+      "size_bytes": 808612,
+      "sha256": "fdd9ab486ca8ea060967105e30db7d8928729c78a67448711d2dd7c3153b37cd",
+      "repository_hash_kind": "sha256",
+      "repository_hash": "fdd9ab486ca8ea060967105e30db7d8928729c78a67448711d2dd7c3153b37cd"
+    },
+    {
+      "name": "special_tokens_map.json",
+      "url": "https://huggingface.co/dekthedev/opus-mt-en-vi-ct2-int8/resolve/c22547827b876e8ee939d6a9363965e5c9f769e1/special_tokens_map.json",
+      "size_bytes": 74,
+      "sha256": "5e4d1f5e759d74cb1c2fe1d165cfc62b5237aa904de759380cd6f43042eec723",
+      "repository_hash_kind": "git-blob-sha1",
+      "repository_hash": "79ae7ea5bf033de69d0055820c57885e3d377bbb"
+    },
+    {
+      "name": "target.spm",
+      "url": "https://huggingface.co/dekthedev/opus-mt-en-vi-ct2-int8/resolve/c22547827b876e8ee939d6a9363965e5c9f769e1/target.spm",
+      "size_bytes": 756198,
+      "sha256": "fb8ad63c818f073c246952c91b2cb1f16aa30728bf51b5c179b8481bc0e20bb5",
+      "repository_hash_kind": "sha256",
+      "repository_hash": "fb8ad63c818f073c246952c91b2cb1f16aa30728bf51b5c179b8481bc0e20bb5"
+    },
+    {
+      "name": "tokenizer_config.json",
+      "url": "https://huggingface.co/dekthedev/opus-mt-en-vi-ct2-int8/resolve/c22547827b876e8ee939d6a9363965e5c9f769e1/tokenizer_config.json",
+      "size_bytes": 849,
+      "sha256": "d4c7b263d0aa35d0cc930f8693804dea1a17cc81b5b7611d3a70f866b5d8fa74",
+      "repository_hash_kind": "git-blob-sha1",
+      "repository_hash": "71d4cdd971976e70351221a060286989f92e0284"
+    },
+    {
+      "name": "vocab.json",
+      "url": "https://huggingface.co/dekthedev/opus-mt-en-vi-ct2-int8/resolve/c22547827b876e8ee939d6a9363965e5c9f769e1/vocab.json",
+      "size_bytes": 1299764,
+      "sha256": "bcc8bbafeb0b6b58fecf244f8da996da9aa45dbea7871164f9c8ce480507f9fe",
+      "repository_hash_kind": "git-blob-sha1",
+      "repository_hash": "2b8dc2b4537510467ef422017be93f30fdf09435"
+    }
+  ]
+}

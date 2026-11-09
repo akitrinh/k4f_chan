@@ -1,0 +1,33 @@
+# Local settings, credentials, and machine-specific files
+settings.json
+.env
+.env.*
+API.txt
+*.key
+*.pem
+*.pfx
+*.lnk
+
+# Dependencies, build outputs, and temporary data
+.venv/
+.cache/
+__pycache__/
+*.py[cod]
+build/
+dist/
+_internal/
+*.log
+*.tmp
+.work*/
+
+# Distribution archives, private maintenance, and old-repository backups
+*.zip
+Chia-se/
+GitHub-backups/
+maintenance/
+
+# OS/editor files
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
